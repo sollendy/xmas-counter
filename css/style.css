@@ -120,3 +120,35 @@ h1 {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+
+.dono:hover {
+    animation-name: dondola;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.palla:hover {
+    animation-name: gonfia;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes dondola {
+    from {
+        transform: rotate(-15deg);
+    }
+    to {
+        transform: rotate(15deg);
+    }
+}
+
+@keyframes gonfia {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
