@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #3535EC;
+    font-family: 'Livvic', sans-serif;
+    line-height: 1;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenitore {
+    width: 350px;
+    margin: 32px auto 0 auto;
+}
+
+.parco-natale {
+    position: relative;
+    height: 600px;
+}
+
+.riquadro {
+    background-color: #120945;
+    padding: 16px 24px;
+    border-radius: 8px;
+
+    position: absolute;
+    top: 90px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #DE7EB6;
+    margin-bottom: 24px;
+    font-size: 30px;
+}
+
+.conto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte-conto {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+}
+.parte-conto:last-child {
+    color: #F2AD41;
+}
+.parte-conto-number {
+    font-size: 48px;
+}
+.parte-conto-label {
+    font-size: 20px;
+}
+
+.dono {
+    position: absolute;
+    width: 120px;
+}
+.dono_1 {
+    bottom: 50px;
+    right: 30px;
+}
+.dono_2 {
+    bottom: 50px;
+    left: 36px;
+    width: 120px;
+}
+
+.dono_3 {
+    bottom: 110px;
+    left: 68px;
+    width: 60px;
+}
+
+.palla {
+    position: absolute;
+    width: 65px;
+}
+.palla_1 {
+    top: 340px;
+    left: 86px;
+}
+.palla_2 {
+    top: 274px;
+    left: 110px;
+}
+.palla_3 {
+    top: 255px;
+    right: 102px;
+}
+
+.palla_4 {
+    top: 360px;
+    right: 75px;
+}
+
+.palla_5 {
+    top: 326px;
+    left: 155px;
+}
+
+.dono:hover {
+    animation-name: jingle;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.palla:hover {
+    animation-name: bump;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
